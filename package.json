@@ -4,15 +4,9 @@
   "description": "nazivprojekta",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "apidoc": "apidoc -i routes/ -o //192.168.8.115/testwin/Razvoj/apidoc/TESTnazivprojekta/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "nazivprojekta",
-    "radni nalozi",
-    "nalozi"
-  ],
-  "author": "Informatika Fortuno d.o.o",
+  "author": "Free to use",
   "license": "ISC",
   "dependencies": {
     "MD5": "~1.2.1",
@@ -25,11 +19,5 @@
     "nodemailer": "^5.1.1",
     "request-ip": "^2.1.3",
     "xoauth2": "^1.1.0"
-  },
-  "apidoc": {
-    "description": "nazivprojekta",
-    "title": "Custom apiDoc browser title",
-    "url": "http://192.168.8.16:3014/api",
-    "sampleUrl": "http://192.168.8.16:3014/api"
   }
 }

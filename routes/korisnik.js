@@ -21,15 +21,7 @@ var korisnik = {
 *    "message": "Uspješno",
 *    "status": true,
 *    "data": [
-*        {
-*            "idkorisnik": 1,
-*            "ko_kor_ime": "alenko",
-*            "ko_ime": "Alen",
-*            "ko_prezime": "Markovic",
-*            "ko_aktivan": 1,
-*            "ko_admin": 1,
-*            "ko_telefon": null,
-*            "ko_email": null
+
 *        }    
 *    ]
 *}
@@ -69,19 +61,7 @@ korisnikPopis : function(req, res, next){
 *    "status": true,
 *    "data": [
 *        {
-*            "idkorisnik": 1,
-*            "ko_kor_ime": "alenko",
-*            "ko_ime": "Alen",
-*            "ko_prezime": "Markovic",
-*            "ko_lozinka": "alenko",
-*            "ko_aktivan": 1,
-*            "ko_admin": 1,
-*            "ko_telefon": null,
-*            "ko_email": null,
-*            "ko_imefirme": null,
-*            "ko_kontakt_osoba": null,
-*            "ko_djelatnost": null,
-*            "ko_napomena": null
+
 *        }
 *    ]
 *}
@@ -247,8 +227,7 @@ korisnikUredi : function(req, res, next){
 *    "status": true,
 *    "data": [
 *        {
-*            "ko_kor_ime": "ALENKO",
-*            "ko_email" : "EMAIL"
+
 *        }
 *    ]
 *}
@@ -286,8 +265,7 @@ korisnikObrisi: function (req, res, next) {
 *    "status": true,
 *    "data": [
 *        {
-*            "ko_kor_ime": "ALENKO",
-*            "ko_email" : "EMAIL"
+
 *        }
 *    ]
 *}

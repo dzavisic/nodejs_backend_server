@@ -12,7 +12,7 @@ testiranje : {
     log:        true, //true false zapisuje u log file
     doublelog:  false,
     directory1:  './', 
-    directory2:  'C:/Users/AlenM/Desktop/Share/log/', 
+    directory2:  '', 
     namefile:   'log.txt',
     namefileerr:'logerr.txt',
     filenameMOB:'logMOB.txt',
@@ -20,12 +20,10 @@ testiranje : {
 },
 
 PHP_API: {
-    //host:"192.168.8.102",
-    //port:"8087",
-    //path: '/index.php/api/fiskal_fiskalizirajracun',
-    host:"192.168.8.16",
-    port:"80",
-    path: '/fiskalApi/index.php/api/fiskal_fiskalizirajracun',
+
+    host:"",
+    port:"",
+    path: '',
 },
 
 promjenalozinke : function(req, res){
